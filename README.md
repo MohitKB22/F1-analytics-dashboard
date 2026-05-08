@@ -98,42 +98,6 @@ Race Input (Circuit + Year + Weather)
 
 ---
 
-## 📁 Project Structure
-
-```
-F1-analytics-dashboard/
-├── run.sh / run.bat        # One-command launcher
-├── app.py                  # Streamlit entry point
-├── models/
-│   ├── xgboost_model.py    # XGBoost training & inference
-│   └── lstm_model.py       # LSTM sequential model
-├── data/
-│   └── f1_dataset.csv      # Cleaned historical race data
-├── pages/
-│   ├── home.py
-│   ├── predictor.py
-│   ├── analytics.py
-│   ├── championships.py
-│   ├── weather_lab.py
-│   └── circuit_map.py
-└── requirements.txt
-```
-
----
-
-## 🚀 Manual Setup
-
-```bash
-git clone https://github.com/MohitKB22/F1-analytics-dashboard.git
-cd F1-analytics-dashboard
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-
----
-
 ## 📊 Dataset Coverage
 
 | Attribute | Coverage |
