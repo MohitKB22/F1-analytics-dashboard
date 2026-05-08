@@ -1,0 +1,162 @@
+{
+  "total_rows": 14264,
+  "seasons": 77,
+  "circuits": 67,
+  "drivers": 74,
+  "top_drivers": {
+    "Lewis Hamilton": 133,
+    "Michael Schumacher": 102,
+    "Fernando Alonso": 66,
+    "Sebastian Vettel": 56,
+    "Alain Prost": 54,
+    "Ayrton Senna": 52,
+    "Niki Lauda": 44,
+    "Mika Hakkinen": 43,
+    "Jim Clark": 38,
+    "Nigel Mansell": 36
+  },
+  "top_constructors": {
+    "McLaren": 232,
+    "Ferrari": 222,
+    "Williams": 186,
+    "Lotus": 167,
+    "Renault": 104,
+    "Jordan": 90,
+    "Red Bull": 77,
+    "Tyrrell": 25,
+    "Maserati": 24,
+    "Sauber": 21
+  },
+  "dnf_by_era": {
+    "1950s": 53.4,
+    "1960s": 39.5,
+    "1970s": 36.2,
+    "1980s": 32.3,
+    "1990s": 20.0,
+    "2000s": 17.3,
+    "2010s": 11.3,
+    "2020s": 12.1
+  },
+  "champions": [
+    {
+      "year": 2007,
+      "driver": "Rubens Barrichello",
+      "constructor": "Renault",
+      "wins": 9
+    },
+    {
+      "year": 2008,
+      "driver": "Fernando Alonso",
+      "constructor": "Ferrari",
+      "wins": 10
+    },
+    {
+      "year": 2009,
+      "driver": "Lewis Hamilton",
+      "constructor": "McLaren",
+      "wins": 4
+    },
+    {
+      "year": 2010,
+      "driver": "Lewis Hamilton",
+      "constructor": "McLaren",
+      "wins": 10
+    },
+    {
+      "year": 2011,
+      "driver": "Lewis Hamilton",
+      "constructor": "McLaren",
+      "wins": 6
+    },
+    {
+      "year": 2012,
+      "driver": "Michael Schumacher",
+      "constructor": "Red Bull",
+      "wins": 11
+    },
+    {
+      "year": 2013,
+      "driver": "Mark Webber",
+      "constructor": "Red Bull",
+      "wins": 10
+    },
+    {
+      "year": 2014,
+      "driver": "Sebastian Vettel",
+      "constructor": "Renault",
+      "wins": 8
+    },
+    {
+      "year": 2015,
+      "driver": "Sebastian Vettel",
+      "constructor": "Renault",
+      "wins": 7
+    },
+    {
+      "year": 2016,
+      "driver": "Sebastian Vettel",
+      "constructor": "Williams",
+      "wins": 8
+    },
+    {
+      "year": 2017,
+      "driver": "Sebastian Vettel",
+      "constructor": "Red Bull",
+      "wins": 8
+    },
+    {
+      "year": 2018,
+      "driver": "Lewis Hamilton",
+      "constructor": "McLaren",
+      "wins": 11
+    },
+    {
+      "year": 2019,
+      "driver": "Sebastian Vettel",
+      "constructor": "Ferrari",
+      "wins": 6
+    },
+    {
+      "year": 2020,
+      "driver": "Max Verstappen",
+      "constructor": "Ferrari",
+      "wins": 10
+    },
+    {
+      "year": 2021,
+      "driver": "Max Verstappen",
+      "constructor": "Red Bull",
+      "wins": 9
+    },
+    {
+      "year": 2022,
+      "driver": "Max Verstappen",
+      "constructor": "Red Bull",
+      "wins": 13
+    },
+    {
+      "year": 2023,
+      "driver": "Fernando Alonso",
+      "constructor": "Red Bull",
+      "wins": 13
+    },
+    {
+      "year": 2024,
+      "driver": "Lewis Hamilton",
+      "constructor": "McLaren",
+      "wins": 12
+    },
+    {
+      "year": 2025,
+      "driver": "Lewis Hamilton",
+      "constructor": "McLaren",
+      "wins": 14
+    },
+    {
+      "year": 2026,
+      "driver": "Lewis Hamilton",
+      "constructor": "McLaren",
+      "wins": 11
+    }
+  ]
+}

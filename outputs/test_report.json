@@ -1,0 +1,465 @@
+{
+  "total": 90,
+  "passed": 90,
+  "failed": 0,
+  "training_metrics": {
+    "mae_xgboost": 0.045,
+    "mae_lstm": 6.472,
+    "mae_hybrid": 3.644,
+    "n_samples": 72,
+    "n_tab_features": 25,
+    "n_seq_features": 7
+  },
+  "tests": [
+    {
+      "name": "Circuit list not empty",
+      "passed": true,
+      "detail": "68 circuits"
+    },
+    {
+      "name": "Driver list not empty",
+      "passed": true,
+      "detail": "77 drivers"
+    },
+    {
+      "name": "Constructor list",
+      "passed": true,
+      "detail": "37 teams"
+    },
+    {
+      "name": "Circuit present: monaco",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit present: silverstone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit present: monza",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit present: spa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit present: interlagos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit present: suzuka",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit present: bahrain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit present: abu_dhabi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Driver present: fangio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Driver present: senna",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Driver present: schumacher_m",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Driver present: hamilton",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Driver present: verstappen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Driver present: norris",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "DataFrame not empty",
+      "passed": true,
+      "detail": "72 rows"
+    },
+    {
+      "name": "Covers multiple seasons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Has all key columns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No null positions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Positions in valid range",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Grid in valid range",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Points non-negative",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Weather fields numeric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Wet flag binary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "DNF flag present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Weather score dry > wet",
+      "passed": true,
+      "detail": "dry=0.690 wet=0.295"
+    },
+    {
+      "name": "Weather score in [0,1]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Performance features added",
+      "passed": true,
+      "detail": "0.3s"
+    },
+    {
+      "name": "Momentum column exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "DNF rate column exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Circuit avg column exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No all-NaN rolling col",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Rain factor column",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Grip index column",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Weather score column",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Grip index in [0,1]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Weather score in [0,1]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Tabular shape correct",
+      "passed": true,
+      "detail": "(72, 25)"
+    },
+    {
+      "name": "Sequence shape correct",
+      "passed": true,
+      "detail": "(72, 5, 7)"
+    },
+    {
+      "name": "Target shape correct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Tabular values finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sequence values finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Labels encoded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Transform (inference) ok",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "XGBoost trains",
+      "passed": true,
+      "detail": "1.5s"
+    },
+    {
+      "name": "Predict returns array",
+      "passed": true,
+      "detail": "shape=(72,)"
+    },
+    {
+      "name": "Train MAE reasonable",
+      "passed": true,
+      "detail": "MAE=0.045"
+    },
+    {
+      "name": "Win probs sum to 1",
+      "passed": true,
+      "detail": "sum=1.000000"
+    },
+    {
+      "name": "Win probs in [0,1]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Feature importance DF",
+      "passed": true,
+      "detail": "10 features"
+    },
+    {
+      "name": "Importance pct sums ~100",
+      "passed": true,
+      "detail": "99.9%"
+    },
+    {
+      "name": "Save/load roundtrip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Fallback predict shape",
+      "passed": true,
+      "detail": "(72,)"
+    },
+    {
+      "name": "Fallback values finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Fallback fit is no-op",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Factory returns model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "LSTM predict shape",
+      "passed": true,
+      "detail": "(72,)"
+    },
+    {
+      "name": "LSTM values finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Weights normalised",
+      "passed": true,
+      "detail": "0.50+0.30+0.20"
+    },
+    {
+      "name": "Engine trains",
+      "passed": true,
+      "detail": "2.0s"
+    },
+    {
+      "name": "Metrics returned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "XGBoost MAE < 15",
+      "passed": true,
+      "detail": "0.045"
+    },
+    {
+      "name": "Hybrid MAE < 15",
+      "passed": true,
+      "detail": "3.644"
+    },
+    {
+      "name": "Era 1952 Alberto Ascari era",
+      "passed": true,
+      "detail": "P1\u2192Jose Gonzalez (30.3%)"
+    },
+    {
+      "name": "Era 1969 Jackie Stewart era",
+      "passed": true,
+      "detail": "P1\u2192Jochen Rindt (43.6%)"
+    },
+    {
+      "name": "Era 1988 Senna/Prost era",
+      "passed": true,
+      "detail": "P1\u2192Nigel Mansell (35.2%)"
+    },
+    {
+      "name": "Era 2004 Schumacher dominance",
+      "passed": true,
+      "detail": "P1\u2192Kimi Raikkonen (45.6%)"
+    },
+    {
+      "name": "Era 2016 Hamilton/Rosberg era",
+      "passed": true,
+      "detail": "P1\u2192Valtteri Bottas (35.4%)"
+    },
+    {
+      "name": "Era 2023 Verstappen era",
+      "passed": true,
+      "detail": "P1\u2192Charles Leclerc (38.4%)"
+    },
+    {
+      "name": "Era 2026 2026 season",
+      "passed": true,
+      "detail": "P1\u2192Oscar Piastri (28.2%)"
+    },
+    {
+      "name": "Dry race produces results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Wet race produces results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Weather impact score differs",
+      "passed": true,
+      "detail": "dry=0.702 wet=0.298"
+    },
+    {
+      "name": "Win probs sum to ~1 (dry)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Win probs sum to ~1 (wet)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Constructor DF not empty",
+      "passed": true,
+      "detail": "5 teams"
+    },
+    {
+      "name": "Has championship_rank column",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Has total_points column",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ranks are 1-based sequential",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Points non-negative",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Best position \u2264 avg position",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Files saved",
+      "passed": true,
+      "detail": "xgboost_f1.pkl, pipeline.pkl"
+    },
+    {
+      "name": "pipeline.pkl exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "xgboost pkl exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Engine reloads",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Same predictions after reload",
+      "passed": true,
+      "detail": "original=Valtteri Bottas, loaded=Valtteri Bottas"
+    },
+    {
+      "name": "Avg inference < 500ms",
+      "passed": true,
+      "detail": "40.3ms"
+    },
+    {
+      "name": "P99 inference < 2000ms",
+      "passed": true,
+      "detail": "55.0ms"
+    }
+  ]
+}
