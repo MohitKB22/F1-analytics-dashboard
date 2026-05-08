@@ -1,12 +1,7 @@
 # 🏎️ F1 Analytics Dashboard
 
 > **A Hybrid AI Formula 1 Race Prediction & Analytics Platform**
-> Powered by XGBoost × LSTM × Weather Intelligence — spanning 77 seasons, 67 circuits, and 74 drivers from **1950 to 2026**.
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?logo=streamlit)](https://streamlit.io)
-[![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)](https://xgboost.readthedocs.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+> Powered by XGBoost × LSTM × Weather Intelligence — spanning 77 seasons, 67 circuits, and 74 drivers from **1950 to 2026**
 
 ---
 
